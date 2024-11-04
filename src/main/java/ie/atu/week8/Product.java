@@ -46,5 +46,14 @@ public class Product {
     void setQuantity(int ToSet){
         quantity = ToSet;
     }
+
+
+    @Override
+    public String toString() {
+        return "Product ID='" + productId + '\'' +
+                ", Name='" + name + '\'' +
+                ", Price=" + price +
+                ", Quantity=" + quantity;
+    }
 }
 
